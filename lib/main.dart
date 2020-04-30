@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:appbar/Utils/appbar_utils.dart';
+import 'package:appbar/utils/appbar_utils.dart';
 
 void main() => runApp(MyApp());
 
