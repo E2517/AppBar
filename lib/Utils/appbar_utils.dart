@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class MyPersonalAppBar extends AppBar {
   MyPersonalAppBar(
       {Key key,
-      Widget titleAppBar,
+      @required Widget titleAppBar,
       Widget leadingAppBar,
       List<Widget> iconAppBar})
       : super(

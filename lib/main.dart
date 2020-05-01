@@ -11,7 +11,9 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       theme: ThemeData.dark(),
       home: Scaffold(
-        appBar: MyPersonalAppBar(),
+        appBar: MyPersonalAppBar(
+          titleAppBar: Text('Title is @required'),
+        ),
         body: Center(
           child: Container(
             child: Text('Reuse App Bar'),
